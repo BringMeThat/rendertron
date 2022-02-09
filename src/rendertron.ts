@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 import koaCompress from 'koa-compress';

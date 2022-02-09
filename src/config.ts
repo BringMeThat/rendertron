@@ -50,7 +50,7 @@ export class ConfigManager {
       cacheMaxEntries: '100',
     },
     timeout: 10000,
-    port: '3000',
+    port: process.env.PORT as string,
     host: '0.0.0.0',
     width: 1000,
     height: 1000,

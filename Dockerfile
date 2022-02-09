@@ -2,7 +2,7 @@ FROM node:16-slim
 
 LABEL MAINTAINER="BMT Dev team"
 
-EXPOSE 3000
+EXPOSE 8080
 
 RUN mkdir /app
 WORKDIR /app
